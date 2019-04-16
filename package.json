@@ -7,13 +7,12 @@
   "author": {
     "name": "Dane Wilson",
     "email": "git@danewilson.me",
-    "url": "github.com/danew/alfred-npm-search"
+    "url": "https://github.com/danew/alfred-npm-search"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=10"
   },
   "scripts": {
-    "test": "xo && ava",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
@@ -28,11 +27,7 @@
     "alfy"
   ],
   "dependencies": {
-    "alfy": "^0.6.0"
+    "alfy": "^0.8.0"
   },
-  "devDependencies": {
-    "alfy-test": "^0.3.0",
-    "ava": "^0.18.0",
-    "xo": "^0.17.0"
-  }
+  "devDependencies": {}
 }

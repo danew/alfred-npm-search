@@ -1,20 +1,34 @@
-# alfred-npm-search [![Build Status](https://travis-ci.org/danew/alfred-npm-search.svg?branch=master)](https://travis-ci.org/danew/alfred-npm-search)
+# Alfred NPM Search
 
-> Search NPM quickly from this Alfred workflow
+Search NPM quickly to find a package's size
 
 
 ## Install
-
+Clone the repository somewhere out of the way:
+```bash
+git clone git@github.com:danew/alfred-npm-search.git
 ```
-$ npm install --global alfred-npm-search
-```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+Install the Workflow:
+```bash
+npm install
+./node_modules/.bin/alfy-init
+```
+*Requires [Node.js](https://nodejs.org) 10+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+
+## Uninstall
+Locate where you cloned the repository and run:
+```bash
+./node_modules/.bin/alfy-init
+```
 
 
 ## Usage
 
-In Alfred, type `npms`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `npms`, <kbd>Space</kbd>, and your package name.   
+This will return you a list of packages if there is no exact package with that name, when it matches an exact package it will show you it's size. If you press <kbd>CMD</kbd> it will provide more information.   
+Pressing <kbd>Enter</kbd> will open up the repository in your browser.
+
 
 
 ## License

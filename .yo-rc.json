@@ -1,8 +1,0 @@
-{
-  "generator-alfred": {
-    "promptValues": {
-      "githubUsername": "danew",
-      "website": "https://github.com/danew/alfred-npm-search"
-    }
-  }
-}
