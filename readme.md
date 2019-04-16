@@ -16,6 +16,7 @@ npm install
 ```
 *Requires [Node.js](https://nodejs.org) 10+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
+
 ## Uninstall
 Locate where you cloned the repository and run:
 ```bash
@@ -30,7 +31,9 @@ This will return you a list of packages if there is no exact package with that n
 Pressing <kbd>Enter</kbd> will open up the repository in your browser.
 
 
+## Credits
 
-## License
-
-MIT © [Dane Wilson](https://github.com/danew/alfred-npm-search)
+This tool wouldn't exist without the awsome work from the following projects:
+* [NPMS](https://npms.io/) - NPM Package search API
+* [BundlePhobia](https://bundlephobia.com/) - NPM Package size API
+* [Alfy](https://github.com/sindresorhus/alfy) - Alfred 3 Workflow tool
