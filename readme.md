@@ -20,7 +20,7 @@ npm install
 ## Uninstall
 Locate where you cloned the repository and run:
 ```bash
-./node_modules/.bin/alfy-init
+./node_modules/.bin/alfy-cleanup
 ```
 
 
