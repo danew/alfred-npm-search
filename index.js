@@ -46,7 +46,7 @@ function hfs(size) {
 		const { name, size, gzip, version, repository, description } = await getPackageSize(packageName);
 		alfy.output([{
 			title: `${name}@${version}`,
-			subtitle: `${hfs(size)} or GZIP: ${hfs(gzip)}`,
+			subtitle: `${hfs(size)}, ${hfs(gzip)} GZIPPED`,
 			arg: repository,
 			mods: {
 				cmd: {
