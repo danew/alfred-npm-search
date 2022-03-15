@@ -1,5 +1,4 @@
-'use strict';
-const alfy = require('alfy');
+import alfy from 'alfy';
 
 const getPackages = async (q) => await alfy.fetch('https://api.npms.io/v2/search', {
 	query: {
